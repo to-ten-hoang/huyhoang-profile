@@ -25,8 +25,7 @@ window.addEventListener("scroll", () => {
 	}
 });
 
-const scriptURL =
-	"https://script.google.com/macros/s/AKfycbwsf46VKw7RU9qVaOytmghSlRjqLi_7Tz-Jp78SLdqi8sqxiI41Lw4K4mPXsQF7cVhh/exec";
+const scriptURL = "https://script.google.com/macros/s/AKfycbztSskfz4iLkUh3WrHl9wZrQeP7Ku9Ho0xj691k_-KPGQo0q-CzPgdel1JhOnV7DRkb/exec";
 const form = document.forms["web-contact-from"];
 
 const btnKirim = document.querySelector(".btn-kirim");

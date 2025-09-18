@@ -1,7 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@500;600;700;800&display=swap');
 * {
-	font-family: "Poppins", sans-serif;
+	font-family: "Be Vietnam Pro", sans-serif;
 }
 
 :root {
@@ -241,4 +240,11 @@ a:hover {
 	.btn {
 		padding: 10px 12px;
 	}
+}
+.card-custom {
+    display: flex;
+    flex-direction: column;
+}
+.card-custom .card-custom-content {
+    flex-grow: 1; 
 }
