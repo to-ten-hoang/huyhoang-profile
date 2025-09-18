@@ -26,7 +26,7 @@ window.addEventListener("scroll", () => {
 });
 
 const scriptURL =
-	"https://script.google.com/macros/s/AKfycbya9zxqfiqL3zccU9Fs3mI2g_mhgzsXqbkLpA52Op0i45CNx64x8tZ8pFENeObdFRFm/exec";
+	"https://script.google.com/macros/s/AKfycbwsf46VKw7RU9qVaOytmghSlRjqLi_7Tz-Jp78SLdqi8sqxiI41Lw4K4mPXsQF7cVhh/exec";
 const form = document.forms["web-contact-from"];
 
 const btnKirim = document.querySelector(".btn-kirim");
@@ -58,6 +58,7 @@ form.addEventListener("submit", (e) => {
 const sections = document.querySelectorAll("section");
 const navbarLinks = document.querySelectorAll(".navbar-nav .nav-link");
 
+
 window.addEventListener("scroll", () => {
 	let current = "";
 	sections.forEach((section) => {
@@ -75,3 +76,4 @@ window.addEventListener("scroll", () => {
 		}
 	});
 });
+
