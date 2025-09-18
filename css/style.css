@@ -241,10 +241,3 @@ a:hover {
 		padding: 10px 12px;
 	}
 }
-.card-custom {
-    display: flex;
-    flex-direction: column;
-}
-.card-custom .card-custom-content {
-    flex-grow: 1; 
-}
