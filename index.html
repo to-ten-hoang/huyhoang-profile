@@ -21,17 +21,17 @@
 		<nav class="navbar navbar-expand-lg navbar-dark shadow-lg fixed-top">
 			<div class="container">
 				<a class="navbar-brand fw-bold" href="#">Vũ Huy Hoàng</a>
-				<button
-					class="navbar-toggler"
-					type="button"
-					data-bs-toggle="collapse"
-					data-bs-target="#navbarNav"
-					aria-controls="navbarNav"
-					aria-expanded="false"
-					aria-label="Toggle navigation"
-				>
-					<span class="navbar-toggler-icon"></span>
-				</button>
+		
+				<div class="d-flex align-items-center d-lg-none">
+					<button id="theme-toggle-mobile" class="theme-toggle-button">
+						<i class="fas fa-moon"></i>
+						<i class="fas fa-sun"></i>
+					</button>
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+				</div>
+		
 				<div class="collapse navbar-collapse" id="navbarNav">
 					<ul class="navbar-nav ms-auto">
 						<li class="nav-item">
@@ -50,6 +50,10 @@
 							<a class="nav-link" href="#contact">Contact</a>
 						</li>
 					</ul>
+					<button id="theme-toggle-desktop" class="theme-toggle-button d-none d-lg-block">
+						<i class="fas fa-moon"></i>
+						<i class="fas fa-sun"></i>
+					</button>
 				</div>
 			</div>
 		</nav>

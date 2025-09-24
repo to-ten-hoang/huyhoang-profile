@@ -76,3 +76,38 @@ window.addEventListener("scroll", () => {
 	});
 });
 
+// --- LOGIC LIGHT/DARK MODE ---
+// --- LOGIC LIGHT/DARK MODE ---
+
+// Lấy CẢ HAI nút bấm
+const themeToggles = document.querySelectorAll('.theme-toggle-button');
+const body = document.body;
+
+// Hàm để áp dụng theme dựa trên giá trị đã lưu
+function applyTheme() {
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme === 'light') {
+        body.classList.add('light-mode');
+    } else {
+        body.classList.remove('light-mode');
+    }
+}
+
+// Hàm để chuyển đổi theme
+function toggleTheme() {
+    if (body.classList.contains('light-mode')) {
+        body.classList.remove('light-mode');
+        localStorage.setItem('theme', 'dark');
+    } else {
+        body.classList.add('light-mode');
+        localStorage.setItem('theme', 'light');
+    }
+}
+
+// Lắng nghe sự kiện click trên MỖI nút
+themeToggles.forEach(btn => {
+    btn.addEventListener('click', toggleTheme);
+});
+
+// Áp dụng theme ngay khi trang được tải xong
+document.addEventListener('DOMContentLoaded', applyTheme);
