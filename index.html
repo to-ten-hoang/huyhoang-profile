@@ -1,476 +1,548 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>About Vu Huy Hoang</title>
 
-		<link rel="icon" href="assets/img/vhh.jpg" />
-		<link rel="stylesheet" href="css/bootstrap.min.css" />
-		<link rel="stylesheet" href="css/aos.css" />
-		<link rel="stylesheet" href="css/line-awesome.min.css" />
-		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
-		<link
-			rel="stylesheet"
-			href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
-		/>
-		<link rel="stylesheet" href="css/style.css" />
-	</head>
-	<body>
-		<nav class="navbar navbar-expand-lg navbar-dark shadow-lg fixed-top">
-			<div class="container">
-				<a class="navbar-brand fw-bold" href="#">Vũ Huy Hoàng</a>
-		
-				<div class="d-flex align-items-center d-lg-none">
-					<button id="theme-toggle-mobile" class="theme-toggle-button">
-						<i class="fas fa-moon"></i>
-						<i class="fas fa-sun"></i>
-					</button>
-					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-						<span class="navbar-toggler-icon"></span>
-					</button>
-				</div>
-		
-				<div class="collapse navbar-collapse" id="navbarNav">
-					<ul class="navbar-nav ms-auto">
-						<li class="nav-item">
-							<a class="nav-link active" aria-current="page" href="#">Home</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#service">Service</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#work">Work</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#about">About</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#contact">Contact</a>
-						</li>
-					</ul>
-					<button id="theme-toggle-desktop" class="theme-toggle-button d-none d-lg-block">
-						<i class="fas fa-moon"></i>
-						<i class="fas fa-sun"></i>
-					</button>
-				</div>
-			</div>
-		</nav>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Vu Huy Hoang</title>
 
-		<!-- HOME -->
+  <link rel="icon" href="assets/img/vhh.jpg" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/aos.css" />
+  <link rel="stylesheet" href="css/line-awesome.min.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
 
-		<section id="home" class="full-height px-lg-5">
-			<div class="container">
-				<div class="row gy-4 align-items-center justify-content-between">
-					<!-- foto profile -->
-					<div class="col-lg-5 img-size text-center">
-						<img src="assets/img/vhh.jpg" data-aos="fade-up" class="rounded-circle img-profile" alt="img profile" />
-					</div>
+<body>
+  <!-- Tech Grid Background -->
+  <div class="tech-background"></div>
 
-					<div class="col-lg-6 tampilan">
-						<h2 class="display-4 fw-bold" data-aos="fade-up">I'M A <span class="text-brand"> WEB DEVELOPER</span></h2>
+  <!-- Glowing Orbs -->
+  <div class="glow-orb glow-orb-1"></div>
+  <div class="glow-orb glow-orb-2"></div>
+  <div class="glow-orb glow-orb-3"></div>
 
-						<p class="mt-2" data-aos="fade-up" data-aos-delay="300">
-							Mình là Vũ Huy Hoàng. Mình là sinh viên ngành Công nghệ thông tin tại Học viện Công nghệ Bưu chính Viễn thông. Hiện tại mình có định hướng trở thành một kỹ sư công nghệ phần mềm.
-						</p>
-						<p class="mb-4" data-aos="fade-up" data-aos-delay="300">
-							Mình nhận thiết kế website, phát triển ứng dụng di động, chỉnh sửa giao diện và hỗ trợ các dự án phần mềm theo yêu cầu. Nếu bạn cần một lập trình viên nhiệt tình, hãy liên hệ với mình để trao đổi chi tiết!
-						</p>
+  <!-- Floating Particles -->
+  <div class="particles">
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+  </div>
+  <nav class="navbar navbar-expand-lg navbar-dark shadow-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">Vũ Huy Hoàng</a>
 
-						<div data-aos="fade-up" data-aos-delay="600">
-							<a href="assets/pages/CV.pdf" download class="btn btn-brand rounded-3 me-2 mt-2">Tải xuống CV</a>
-							<a href="#work" class="btn btn-brand rounded-3 me-2 mt-2">Kinh nghiệm làm việc</a>
-							<a href="#contact" class="btn btn-brand rounded-3 me-2 mt-2">Liên hệ</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- HOME -->
+      <div class="d-flex align-items-center d-lg-none">
+        <button id="theme-toggle-mobile" class="theme-toggle-button">
+          <i class="fas fa-moon"></i>
+          <i class="fas fa-sun"></i>
+        </button>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
 
-		<!-- SERVICE -->
-		<section id="service" class="full-height px-lg-5">
-			<div class="container">
-				<div class="row mb-4 justify-content-center text-center" data-aos="fade-up">
-					<div class="col-lg-12">
-						<h2 class="text-brand">SERVICE</h2>
-						<h2>Dịch vụ mình có thể cung cấp</h2>
-					</div>
-				</div>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#service">Service</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#work">Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+        <button id="theme-toggle-desktop" class="theme-toggle-button d-none d-lg-block">
+          <i class="fas fa-moon"></i>
+          <i class="fas fa-sun"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
 
-				<div class="row gy-4 justify-content-center text-center">
-					<div class="col-md-6 col-lg-4" data-aos="fade-up">
-						<div class="service p-4 bg-base rounded-4 shadow-effect">
-							<div class="iconbox rounded-4 m-auto">
-								<i class="fa-solid fa-code"></i>
-							</div>
-							<h4 class="mt-4 mb-2">Lập trình web</h4>
-						</div>
-					</div>
+  <!-- HOME -->
 
-					<div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
-						<div class="service p-4 bg-base rounded-4 shadow-effect">
-							<div class="iconbox rounded-4 m-auto">
-								<i class="fa-brands fa-python"></i>
-							</div>
-							<h4 class="mt-4 mb-2">Giảng dạy Python</h4>
-						</div>
-					</div>
+  <section id="home" class="full-height px-lg-5">
+    <div class="container">
+      <div class="row gy-4 align-items-center justify-content-between">
+        <!-- foto profile -->
+        <div class="col-lg-5 img-size text-center">
+          <img src="assets/img/vhh.jpg" data-aos="fade-up" class="rounded-circle img-profile" alt="img profile" />
+        </div>
 
-					<div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="600">
-						<div class="service p-4 bg-base rounded-4 shadow-effect">
-							<div class="iconbox rounded-4 m-auto">
-								<i class="fa-solid fa-scissors"></i>
-							</div>
-							<h4 class="mt-4 mb-2">Chỉnh sửa video ngắn</h4>
-						</div>
-					</div>
-				</div>
+        <div class="col-lg-6 tampilan">
+          <h2 class="display-4 fw-bold" data-aos="fade-up">I'M A <span class="text-brand">FRONTEND DEVELOPER</span></h2>
 
-				<!-- SKILL -->
-				<div class="row mb-4 justify-content-center text-center" data-aos="fade-up">
-					<div class="col-lg-12 mt-5">
-						<h2 class="text-brand">MY SKILL</h2>
-						<h2>Công nghệ mình có thể dùng</h2>
-					</div>
-				</div>
-				<div class="row gy-4 justify-content-center text-center">
-					<div class="col-md-4 col-lg-2" data-aos="fade-up" data-aos-delay="0">
-						<div class="p-3 bg-base rounded-4 shadow-effect">
-							<p class="text">ReactJS</p>
-						</div>
-					</div>
-					<div class="col-md-4 col-lg-2" data-aos="fade-up" data-aos-delay="100">
-						<div class="p-3 bg-base rounded-4 shadow-effect">
-							<p class="text">NodeJS</p>
-						</div>
-					</div>
-					<div class="col-md-4 col-lg-2" data-aos="fade-up" data-aos-delay="200">
-						<div class="p-3 bg-base rounded-4 shadow-effect">
-							<p class="text">Django</p>
-						</div>
-					</div>
-					<div class="col-md-4 col-lg-2" data-aos="fade-up" data-aos-delay="300">
-						<div class="p-3 bg-base rounded-4 shadow-effect">
-							<p class="text">HTML</p>
-						</div>
-					</div>
-					<div class="col-md-4 col-lg-2" data-aos="fade-up" data-aos-delay="400">
-						<div class="p-3 bg-base rounded-4 shadow-effect">
-							<p class="text">CSS</p>
-						</div>
-					</div>
-					<div class="col-md-4 col-lg-2" data-aos="fade-up" data-aos-delay="500">
-						<div class="p-3 bg-base rounded-4 shadow-effect">
-							<p class="text">JavaScript</p>
-						</div>
-					</div>
-					<div class="col-md-4 col-lg-2" data-aos="fade-up" data-aos-delay="600">
-						<div class="p-3 bg-base rounded-4 shadow-effect">
-							<p class="text">Python</p>
-						</div>
-					</div>
-					<div class="col-md-4 col-lg-2" data-aos="fade-up" data-aos-delay="700">
-						<div class="p-3 bg-base rounded-4 shadow-effect">
-							<p class="text">Java</p>
-						</div>
-					</div>
-				</div>
+          <p class="mt-2" data-aos="fade-up" data-aos-delay="300">
+            Xin chào! Mình là <strong>Vũ Huy Hoàng</strong> - Frontend Developer với <strong>1 năm kinh nghiệm</strong>
+            chuyên về ReactJS.
+            Mình là sinh viên ngành Công nghệ thông tin (Công nghệ phần mềm) tại Học viện Công nghệ Bưu chính Viễn
+            thông.
+          </p>
+          <p class="mb-4" data-aos="fade-up" data-aos-delay="300">
+            Mình có khả năng thích ứng nhanh với các dự án đa chức năng và liên tục học hỏi công nghệ mới.
+            Mình tự tin có thể đóng góp hiệu quả vào sự phát triển của công ty.
+          </p>
 
-				<!-- SKill -->
-			</div>
-		</section>
-		<!-- SERVICE -->
+          <div data-aos="fade-up" data-aos-delay="600">
+            <a href="assets/pages/CV_VuHuyHoang_FE_React (1).pdf" download class="btn btn-brand rounded-3 me-2 mt-2">Tải
+              xuống CV</a>
+            <a href="#about" class="btn btn-brand rounded-3 me-2 mt-2">Kinh nghiệm làm việc</a>
+            <a href="#contact" class="btn btn-brand rounded-3 me-2 mt-2">Liên hệ</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- HOME -->
 
-		<!-- WORK -->
-		<section id="work" class="full-height px-lg-5">
-			<div class="container">
-				<div class="row pb-4 justify-content-center text-center" data-aos="fade-up">
-					<div class="col-lg-12">
-						<h2 class="text-brand">WORK</h2>
-						<h2>Những dự án mình làm</h2>
-					</div>
-				</div>
+  <!-- SERVICE -->
+  <section id="service" class="full-height px-lg-5">
+    <div class="container">
+      <div class="row mb-4 justify-content-center text-center" data-aos="fade-up">
+        <div class="col-lg-12">
+          <h2 class="text-brand">SERVICE</h2>
+          <h2>Dịch vụ mình có thể cung cấp</h2>
+        </div>
+      </div>
 
-				<div class="row gy-4 justify-content-center">
-					<div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
-						<div class="card-custom rounded-4 bg-base shadow-effect h-100">
-							<div class="card-custom-image rounded-4">
-								<img class="img-sizes p-3 img-fluid object-fit-cover" src="assets/img/learnez.png" alt="Tiếng Anh LearnEZ" />
-							</div>
-							<div class="card-custom-content p-4">
-								<h4>Tiếng Anh LearnEZ</h4>
-								<h6>https://github.com/to-ten-hoang/LearnEZ-FE</h6>
-								<p>
-									Dự án này là hệ thống quản lý giáo dục trực tuyến, phát triển bằng ReactJS. Hệ thống hướng đến việc cung cấp giải pháp toàn diện cho quản lý khóa học, lớp học, bài kiểm tra, ngân hàng đề, tin tức và tương tác giữa học viên, giáo viên, trung tâm.
-								</p>
-								<a href="https://fe-q0rg.onrender.com" class="link-custom" target="_blank">Xem chi tiết</a>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
-						<div class="card-custom rounded-4 bg-base shadow-effect h-100">
-							<div class="card-custom-image">
-								<img class="img-sizes p-3 img-fluid object-fit-cover" src="assets/img/mecf.png" alt="" />
-							</div>
-							<div class="card-custom-content p-4">
-								<h4>Mê Coffee</h4>
-								<h6>https://github.com/to-ten-hoang/Me-coffee</h6>
-								<p>
-									Mê Coffee là landing page của một quán cà phê. Website này được phát triển với HTML và CSS.
-								</p>
-								<a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fcopper-gisella-91.tiiny.site%2F%3Ffbclid%3DIwZXh0bgNhZW0CMTAAAR2z_7GBIQ5vYmzOgYaB_WRh-lhaMNCspBou7UHUJKHU7LK2kQFVRlXw920_aem_AaoU41ozANont-h0PNqAQ6qhhPzpvWMwp27Ym7YDUW2Rf_7ugS6iYA8FoHiquj5TBOxN569AY-uhmhVe4sWOhE3m&h=AT0KJncg73c62yXqc-1Uq5EAFTdzgeg2G8Dm1ArQ1YCFA7aibNjQfOJWj7kgkmiHoWCQ05oCbpTnPBWXXiquHaqT5Se7gMVGIqhmCVhdj7p3aGp5E0DNXXkX8O7G5rGhRs7IwxBIRVBe_28" class="link-custom">Xem chi tiết</a>
-							</div>
-						</div>
-					</div>
+      <div class="row gy-4 justify-content-center text-center">
+        <div class="col-md-6 col-lg-4" data-aos="fade-up">
+          <div class="service p-4 bg-base rounded-4 shadow-effect">
+            <div class="iconbox rounded-4 m-auto">
+              <i class="fa-solid fa-code"></i>
+            </div>
+            <h4 class="mt-4 mb-2">Lập trình web</h4>
+          </div>
+        </div>
 
-					<div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="400">
-						<div class="card-custom rounded-4 bg-base shadow-effect h-100">
-							<div class="card-custom-image rounded-4">
-								<img class="img-sizes p-3 img-fluid object-fit-cover" src="assets/img/prf.png" alt="" />
-							</div>
-							<div class="card-custom-content p-4">
-								<h4>Profile's Hoang</h4>
-								<h6>https://github.com/to-ten-hoang/LearnEZ-FE</h6>
-								<p>
-									Profile's Hoang là trang web cá nhân của mình. Website này được phát triển bằng Bootstrap.
-								</p>
-								<a href="https://www.facebook.com/to.ten.hoang.03/" class="link-custom">Xem chi tiết</a>
-							</div>
-						</div>
-					</div>
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+          <div class="service p-4 bg-base rounded-4 shadow-effect">
+            <div class="iconbox rounded-4 m-auto">
+              <i class="fa-brands fa-python"></i>
+            </div>
+            <h4 class="mt-4 mb-2">Giảng dạy Lập trình</h4>
+          </div>
+        </div>
 
-					<div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="600">
-						<div class="card-custom rounded-4 bg-base shadow-effect h-100">
-							<div class="card-custom-image">
-								<img class="img-sizes p-3 img-fluid object-fit-cover" src="assets/img/hoanghamhoc.png" alt="" />
-							</div>
-							<div class="card-custom-content p-4">
-								<h4>Hoàng ham học</h4>
-								<p>
-									Hoàng ham học là nơi mình chia sẻ những kiến thức mình cảm thấy thú vị. Website này được phát triển bằng Wordpress.
-								</p>
-								<a href="https://vuhuyhoang0.wordpress.com/" class="link-custom">Xem chi tiết </a>
-							</div>
-						</div>
-					</div>
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="600">
+          <div class="service p-4 bg-base rounded-4 shadow-effect">
+            <div class="iconbox rounded-4 m-auto">
+              <i class="fa-solid fa-scissors"></i>
+            </div>
+            <h4 class="mt-4 mb-2">Chỉnh sửa video ngắn</h4>
+          </div>
+        </div>
+      </div>
 
-					
-				</div>
-			</div>
-		</section>
-		<!-- WORK -->
+      <!-- SKILL -->
+      <div class="row mb-4 justify-content-center text-center" data-aos="fade-up">
+        <div class="col-lg-12 mt-5">
+          <h2 class="text-brand">MY SKILLS</h2>
+          <h2>Công nghệ mình có thể sử dụng</h2>
+        </div>
+      </div>
+      <div class="row gy-4 justify-content-center text-center">
+        <div class="col-md-4 col-lg-2" data-aos="fade-up" data-aos-delay="0">
+          <div class="p-3 bg-base rounded-4 shadow-effect">
+            <p class="text">ReactJS</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-2" data-aos="fade-up" data-aos-delay="50">
+          <div class="p-3 bg-base rounded-4 shadow-effect">
+            <p class="text">NextJS</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-2" data-aos="fade-up" data-aos-delay="100">
+          <div class="p-3 bg-base rounded-4 shadow-effect">
+            <p class="text">React Native</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-2" data-aos="fade-up" data-aos-delay="150">
+          <div class="p-3 bg-base rounded-4 shadow-effect">
+            <p class="text">TypeScript</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-2" data-aos="fade-up" data-aos-delay="200">
+          <div class="p-3 bg-base rounded-4 shadow-effect">
+            <p class="text">JavaScript</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-2" data-aos="fade-up" data-aos-delay="250">
+          <div class="p-3 bg-base rounded-4 shadow-effect">
+            <p class="text">TailwindCSS</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-2" data-aos="fade-up" data-aos-delay="300">
+          <div class="p-3 bg-base rounded-4 shadow-effect">
+            <p class="text">Bootstrap</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-2" data-aos="fade-up" data-aos-delay="350">
+          <div class="p-3 bg-base rounded-4 shadow-effect">
+            <p class="text">Ant Design</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-2" data-aos="fade-up" data-aos-delay="400">
+          <div class="p-3 bg-base rounded-4 shadow-effect">
+            <p class="text">HTML/CSS</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-2" data-aos="fade-up" data-aos-delay="450">
+          <div class="p-3 bg-base rounded-4 shadow-effect">
+            <p class="text">NodeJS</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-2" data-aos="fade-up" data-aos-delay="500">
+          <div class="p-3 bg-base rounded-4 shadow-effect">
+            <p class="text">Python</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-2" data-aos="fade-up" data-aos-delay="550">
+          <div class="p-3 bg-base rounded-4 shadow-effect">
+            <p class="text">Git</p>
+          </div>
+        </div>
+      </div>
 
-		<!-- ABOUT -->
-		<section id="about" class="full-height px-lg-5">
-			<div class="container">
-				<div class="row pb-4 justify-content-center text-center" data-aos="fade-up">
-					<div class="col-lg-12 text-center">
-						<h2 class="text-brand">ABOUT</h2>
-						<h2>Học vấn và kinh nghiệm của mình</h2>
-					</div>
-				</div>
+      <!-- SKill -->
+    </div>
+  </section>
+  <!-- SERVICE -->
 
-				<div class="row gy-5">
-					<div class="col-lg-6">
-						<h4 data-aos="fade-up" data-aos-delay="300">Học vấn</h4>
-						<div class="row gy-4">
-							<div class="col-12" data-aos="fade-up" data-aos-delay="600">
-								<div class="bg-base p-4 rounded-4 shadow-effect">
-									<h4>Học viện Công nghệ Bưu chính Viễn thông</h4>
-									<p class="text-brand mb-2">Hiện vẫn đang theo học</p>
-									<p class="mb-0">Sinh viên ngành công nghệ thông tin, chuyên ngành công nghệ phần mềm.</p>
-								</div>
-							</div>
+  <!-- WORK -->
+  <section id="work" class="full-height px-lg-5">
+    <div class="container">
+      <div class="row pb-4 justify-content-center text-center" data-aos="fade-up">
+        <div class="col-lg-12">
+          <h2 class="text-brand">WORK</h2>
+          <h2>Những dự án mình làm</h2>
+        </div>
+      </div>
 
-							<div class="col-12" data-aos="fade-up" data-aos-delay="600">
-								<div class="bg-base p-4 rounded-4 shadow-effect">
-									<h4>Trung học Phổ thông Bình Minh</h4>
-									<p class="text-brand mb-2">2018 - 2021</p>
-									<!-- <p class="mb-0">Mô tả thêm về lĩnh vực theo học.</p> -->
-								</div>
-							</div>
-						</div>
-					</div>
+      <div class="row gy-4 justify-content-center">
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
+          <div class="card-custom rounded-4 bg-base shadow-effect h-100">
+            <div class="card-custom-image rounded-4">
+              <img class="img-sizes p-3 img-fluid object-fit-cover" src="assets/img/learnez.png"
+                alt="English Learning Platform" />
+            </div>
+            <div class="card-custom-content p-4">
+              <h4>English Learning Platform</h4>
+              <!-- <p class="text-brand mb-2"><i class="fa-regular fa-calendar me-1"></i>05/2025 – 08/2025</p> -->
+              <p>
+                Nền tảng học tiếng Anh trực tuyến với các tính năng: Quản lý khóa học & lớp học, Hệ thống bài kiểm tra &
+                ngân hàng đề,
+                Cổng tin tức, và các tính năng tương tác cho Học viên, Giáo viên, Trung tâm.
+                Phát triển bằng ReactJS, AntD.
+              </p>
+              <a href="https://fe-q0rg.onrender.com" class="link-custom" target="_blank">Xem chi tiết</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="card-custom rounded-4 bg-base shadow-effect h-100">
+            <div class="card-custom-image">
+              <img class="img-sizes p-3 img-fluid object-fit-cover" src="assets/img/mecf.png" alt="" />
+            </div>
+            <div class="card-custom-content p-4">
+              <h4>Mê Coffee</h4>
+              <p>
+                Landing page của một quán cà phê. Website này được phát triển với HTML và CSS.
+              </p>
+              <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fcopper-gisella-91.tiiny.site%2F%3Ffbclid%3DIwZXh0bgNhZW0CMTAAAR2z_7GBIQ5vYmzOgYaB_WRh-lhaMNCspBou7UHUJKHU7LK2kQFVRlXw920_aem_AaoU41ozANont-h0PNqAQ6qhhPzpvWMwp27Ym7YDUW2Rf_7ugS6iYA8FoHiquj5TBOxN569AY-uhmhVe4sWOhE3m&h=AT0KJncg73c62yXqc-1Uq5EAFTdzgeg2G8Dm1ArQ1YCFA7aibNjQfOJWj7kgkmiHoWCQ05oCbpTnPBWXXiquHaqT5Se7gMVGIqhmCVhdj7p3aGp5E0DNXXkX8O7G5rGhRs7IwxBIRVBe_28"
+                class="link-custom">Xem chi tiết</a>
+            </div>
+          </div>
+        </div>
 
-					<div class="col-lg-6">
-						<h4 data-aos="fade-up" data-aos-delay="300">Giải thưởng</h4>
-						<div class="row gy-4">
-							<div class="col-12" data-aos="fade-up" data-aos-delay="600">
-								<div class="bg-base p-4 rounded-4 shadow-effect">
-									<h4>Cuộc thi Khoa học Kĩ thuật tỉnh Ninh Bình </h4>
-									<p class="text-brand mb-2">2018 - 2019</p>
-									<p class="mb-0">Giải nhất (Lĩnh vực Hệ thống nhúng)</p>
-								</div>
-							</div>
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="400">
+          <div class="card-custom rounded-4 bg-base shadow-effect h-100">
+            <div class="card-custom-image rounded-4">
+              <img class="img-sizes p-3 img-fluid object-fit-cover" src="assets/img/prf.png" alt="" />
+            </div>
+            <div class="card-custom-content p-4">
+              <h4>Profile's Hoang</h4>
+              <p>
+                Profile's Hoang là trang web cá nhân của mình. Website này được phát triển bằng Bootstrap.
+              </p>
+              <a href="https://to-ten-hoang.github.io/huyhoang-profile/" class="link-custom">Xem chi tiết</a>
+            </div>
+          </div>
+        </div>
 
-							<div class="col-12" data-aos="fade-up" data-aos-delay="600">
-								<div class="bg-base p-4 rounded-4 shadow-effect">
-									<h4>Sáng tạo trẻ tỉnh Ninh Bình</h4>
-									<p class="text-brand mb-2">2018 - 2019</p>
-									<p class="mb-0">Giải nhì (Lĩnh vực Khoa học Xã hội)</p>
-								</div>
-							</div>
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="600">
+          <div class="card-custom rounded-4 bg-base shadow-effect h-100">
+            <div class="card-custom-image">
+              <img class="img-sizes p-3 img-fluid object-fit-cover" src="assets/img/hoanghamhoc.png" alt="" />
+            </div>
+            <div class="card-custom-content p-4">
+              <h4>Hoàng ham học</h4>
+              <p>
+                Hoàng ham học là nơi mình chia sẻ những kiến thức mình cảm thấy thú vị. Website này được phát triển bằng
+                Wordpress.
+              </p>
+              <a href="https://vuhuyhoang0.wordpress.com/" class="link-custom">Xem chi tiết </a>
+            </div>
+          </div>
+        </div>
 
-							<!-- <div class="col-12" data-aos="fade-up" data-aos-delay="600">
-								<div class="bg-base p-4 rounded-4 shadow-effect">
-									<h4>Tên công việc</h4>
-									<p class="text-brand mb-2">2024 (thời gian làm việc)</p>
-									<p class="mb-0">Mô tả thêm về công việc</p>
-								</div>
-							</div> -->
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- ABOUT -->
 
-		<!-- CONTACT-->
-		<section id="contact" class="full-height px-lg-5">
-			<div class="container">
-				<div class="row justify-content-center text-center" data-aos="fade-up">
-					<div class="col-lg-12 pb-4">
-						<h2 class="text-brand">CONTACT</h2>
-						<h2>Để lại lời nhắn cho mình</h2>
-					</div>
+      </div>
+    </div>
+  </section>
+  <!-- WORK -->
 
-					<div class="col-lg-9" data-aos="fade-up" data-aos-delay="300">
-						<div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
-							<strong>Cảm ơn!</strong> Mình đã nhận được lời nhắn của bạn.
-							<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-						</div>
-						<form action="#" name="web-contact-from" class="row g-lg-3 gy-3">
-							<div class="form-group col-md-6">
-								<input type="text" class="form-control" id="name" name="name" placeholder="Tên của bạn" />
-							</div>
-							<div class="form-group col-md-6">
-								<input type="email" class="form-control" id="email" name="email" placeholder="Email của bạn" />
-							</div>
-							<div class="form-group col-md-12">
-								<textarea
-									type="text"
-									rows="3"
-									class="form-control"
-									id="pesan"
-									name="pesan"
-									placeholder="Để lại lời nhắn..."
-								></textarea>
-							</div>
-							<div class="form-group col-md-12 d-grid">
-								<button type="submit" class="btn btn-brand btn-kirim">Gửi</button>
-								<button class="btn btn-brand btn-loading d-none" type="button" disabled>
-									<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
-									Loading...
-								</button>
-							</div>
-						</form>
-						<!-- Thông tin liên hệ khác -->
-						<div class="mt-5">
-							<h5 class="mb-3 text-center">Thông tin liên hệ khác</h5>
-							<div class="row g-3 justify-content-center">
-								<div class="col-12 col-md-6">
-									<div class="bg-base rounded-4 shadow-effect p-3 h-100">
-										<ul class="list-unstyled mb-0">
-											<li class="mb-3 d-flex align-items-center">
-												<span class="iconbox me-3"><i class="fa-solid fa-envelope"></i></span>
-												<div>
-													<span class="fw-bold">Email:</span>
-													<a href="mailto:vuhuyhoang12abm@gmail.com" class="text-decoration-none">vuhuyhoang12abm@gmail.com</a>
-												</div>
-											</li>
-											<li class="mb-3 d-flex align-items-center">
-												<span class="iconbox me-3"><i class="fa-solid fa-phone"></i></span>
-												<div>
-													<span class="fw-bold">Điện thoại:</span>
-													<a href="tel:0839463403" class="text-decoration-none">0839 463 403</a>
-												</div>
-											</li>
-											<li class="mb-3 d-flex align-items-center">
-												<span class="iconbox me-3"><i class="fa-solid fa-location-dot"></i></span>
-												<div>
-													<span class="fw-bold">Địa chỉ:</span>
-													Hà Nội, Việt Nam
-												</div>
-											</li>
-										</ul>
-									</div>
-								</div>
-								<div class="col-12 col-md-6">
-									<div class="bg-base rounded-4 shadow-effect p-3 h-100">
-										<ul class="list-unstyled mb-0">
-											<li class="mb-3 d-flex align-items-center">
-												<span class="iconbox me-3"><i class="fa-brands fa-facebook"></i></span>
-												<div>
-													<span class="fw-bold">Facebook:</span>
-													<a href="https://www.facebook.com/to.ten.hoang.03/" target="_blank" class="text-decoration-none">to.ten.hoang.03</a>
-												</div>
-											</li>
-											<li class="mb-3 d-flex align-items-center">
-												<span class="iconbox me-3"><i class="fa-brands fa-github"></i></span>
-												<div>
-													<span class="fw-bold">GitHub:</span>
-													<a href="https://github.com/to-ten-hoang" target="_blank" class="text-decoration-none">to-ten-hoang</a>
-												</div>
-											</li>
-											<li class="mb-3 d-flex align-items-center">
-												<span class="iconbox me-3"><i class="fa-brands fa-instagram"></i></span>
-												<div>
-													<span class="fw-bold">Instagram:</span>
-													<a href="https://www.instagram.com/hoang.august/" target="_blank" class="text-decoration-none">@hoang.august</a>
-												</div>
-											</li>
-											<li class="mb-3 d-flex align-items-center">
-												<span class="iconbox me-3"><i class="fa-solid fa-comment-dots"></i></span>
-												<div>
-													<span class="fw-bold">Zalo:</span>
-													<a href="https://zalo.me/0961234567" target="_blank" class="text-decoration-none">0839 463 403</a>
-												</div>
-											</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-						<!-- End Thông tin liên hệ khác -->
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- CONTACT-->
+  <!-- ABOUT -->
+  <section id="about" class="full-height px-lg-5">
+    <div class="container">
+      <div class="row pb-4 justify-content-center text-center" data-aos="fade-up">
+        <div class="col-lg-12 text-center">
+          <h2 class="text-brand">ABOUT</h2>
+          <h2>Học vấn và kinh nghiệm của mình</h2>
+        </div>
+      </div>
 
-		<!-- FOOTER -->
-		<footer class="py-5 px-lg-5 bg-base">
-			<div class="container">
-				<div class="row gy-4 justify-content-between align-items-center">
-					<div class="col-lg-4 col-md-6 col-12 mb-3 mb-lg-0">
-						<p class="fw-bold fs-3 mb-1">Vũ Huy Hoàng</p>
-						<p class="mb-0">Hỗ trợ các dịch vụ phần mềm</p>
-					</div>
-					<div class="col-lg-4 col-md-6 col-12 mb-3 mb-lg-0">
-						<ul class="list-unstyled mb-0">
-							<li><i class="fa-solid fa-envelope me-2"></i>Email: <a href="mailto:vuhuyhoang0@gmail.com">vuhuyhoang12abm@gmail.com</a></li>
-							<li><i class="fa-solid fa-phone me-2"></i>Điện thoại: <a href="tel:0961234567">0839 463 403</a></li>
-							<li><i class="fa-solid fa-location-dot me-2"></i>Địa chỉ: Hà Nội, Việt Nam</li>
-						</ul>
-					</div>
-					<div class="col-lg-4 col-12 text-lg-end text-center">
-						<div class="social-icons mb-2">
-							<a href="https://www.instagram.com/hoang.august/" class="me-2"><i class="fa-brands fa-instagram"></i></a>
-							<a href="https://github.com/to-ten-hoang" class="me-2"><i class="fa-brands fa-github"></i></a>
-							<a href="https://www.facebook.com/to.ten.hoang.03/" class="me-2"><i class="fa-brands fa-facebook"></i></a>
-							<a href="https://zalo.me/0961234567"><i class="fa-solid fa-comment-dots"></i></a>
-						</div>
-						<small class="text-muted">&copy; 2024 Vũ Huy Hoàng. All rights reserved.</small>
-					</div>
-				</div>
-			</div>
-		</footer>
-		<!-- FOOTER -->
+      <!-- KINH NGHIỆM LÀM VIỆC -->
+      <div class="row gy-5 mb-5">
+        <div class="col-12">
+          <h4 data-aos="fade-up" data-aos-delay="300"><i class="fa-solid fa-briefcase me-2"></i>Kinh nghiệm làm việc
+          </h4>
+          <div class="row gy-4">
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="600">
+              <div class="bg-base p-4 rounded-4 shadow-effect h-100">
+                <h4>Ta Thanh An Group, Hà Nội</h4>
+                <p class="text-brand mb-2"><i class="fa-regular fa-calendar me-1"></i>07/2025 – 11/2025</p>
+                <p class="mb-1"><strong>Vị trí:</strong> Front End Developer</p>
+                <p class="mb-1"><strong>Dự án:</strong> Hệ thống chống lừa đảo & xác minh (Anti-Phishing & Verification
+                  System)</p>
+                <p class="mb-1"><strong>Công việc:</strong></p>
+                <ul class="mb-2">
+                  <li>Xây dựng Chrome Extension cảnh báo lừa đảo tự động, real-time</li>
+                  <li>Phát triển Management Dashboard cho quản trị hệ thống và xác minh doanh nghiệp liên kết</li>
+                </ul>
+                <p class="mb-0"><strong>Công nghệ:</strong> Next.js, ReactJS, Ant Design, Shadcn UI</p>
+              </div>
+            </div>
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="600">
+              <div class="bg-base p-4 rounded-4 shadow-effect h-100">
+                <h4>NKG Company, Hà Nội</h4>
+                <p class="text-brand mb-2"><i class="fa-regular fa-calendar me-1"></i>02/2024 – 08/2024</p>
+                <p class="mb-1"><strong>Vị trí:</strong> Intern</p>
+                <p class="mb-1"><strong>Dự án:</strong> Chuyển đổi số Giáo dục Đại học (Higher Education Digital
+                  Transformation)</p>
+                <p class="mb-1"><strong>Công việc:</strong></p>
+                <ul class="mb-2">
+                  <li>Phát triển các tính năng cốt lõi: Course Builder (Tạo khóa học)</li>
+                  <li>Xây dựng module Quản lý người dùng (User Management)</li>
+                </ul>
+                <p class="mb-0"><strong>Công nghệ:</strong> ReactJS, Ant Design (AntD)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
-		<script src="js/bootstrap.bundle.min.js"></script>
-		<script src="js/aos.js"></script>
-		<script src="js/main.js"></script>
-	</body>
+      <!-- HỌC VẤN & GIẢI THƯỞNG -->
+      <div class="row gy-5">
+        <div class="col-lg-6">
+          <h4 data-aos="fade-up" data-aos-delay="300"><i class="fa-solid fa-graduation-cap me-2"></i>Học vấn</h4>
+          <div class="row gy-4">
+            <div class="col-12" data-aos="fade-up" data-aos-delay="600">
+              <div class="bg-base p-4 rounded-4 shadow-effect">
+                <h4>Học viện Công nghệ Bưu chính Viễn thông</h4>
+                <p class="text-brand mb-2"><i class="fa-regular fa-calendar me-1"></i>10/2021 – 01/2026</p>
+                <p class="mb-0">Ngành Công nghệ thông tin, chuyên ngành Công nghệ phần mềm (Software Engineering)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <h4 data-aos="fade-up" data-aos-delay="300"><i class="fa-solid fa-trophy me-2"></i>Giải thưởng</h4>
+          <div class="row gy-4">
+            <div class="col-12" data-aos="fade-up" data-aos-delay="600">
+              <div class="bg-base p-4 rounded-4 shadow-effect">
+                <h4>Cuộc thi Khoa học Kĩ thuật tỉnh Ninh Bình</h4>
+                <p class="text-brand mb-2"><i class="fa-regular fa-calendar me-1"></i>2019</p>
+                <p class="mb-0"><i class="fa-solid fa-medal me-1"></i>Giải nhất (Lĩnh vực Hệ thống nhúng)</p>
+              </div>
+            </div>
+
+            <div class="col-12" data-aos="fade-up" data-aos-delay="600">
+              <div class="bg-base p-4 rounded-4 shadow-effect">
+                <h4>Sáng tạo trẻ tỉnh Ninh Bình</h4>
+                <p class="text-brand mb-2"><i class="fa-regular fa-calendar me-1"></i>2019</p>
+                <p class="mb-0"><i class="fa-solid fa-medal me-1"></i>Giải nhì (Lĩnh vực Khoa học Xã hội)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ABOUT -->
+
+  <!-- CONTACT-->
+  <section id="contact" class="full-height px-lg-5">
+    <div class="container">
+      <div class="row justify-content-center text-center" data-aos="fade-up">
+        <div class="col-lg-12 pb-4">
+          <h2 class="text-brand">CONTACT</h2>
+          <h2>Để lại lời nhắn cho mình</h2>
+        </div>
+
+        <div class="col-lg-9" data-aos="fade-up" data-aos-delay="300">
+          <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
+            <strong>Cảm ơn!</strong> Mình đã nhận được lời nhắn của bạn.
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+          </div>
+          <form action="#" name="web-contact-from" class="row g-lg-3 gy-3">
+            <div class="form-group col-md-6">
+              <input type="text" class="form-control" id="name" name="name" placeholder="Tên của bạn" />
+            </div>
+            <div class="form-group col-md-6">
+              <input type="email" class="form-control" id="email" name="email" placeholder="Email của bạn" />
+            </div>
+            <div class="form-group col-md-12">
+              <textarea type="text" rows="3" class="form-control" id="pesan" name="pesan"
+                placeholder="Để lại lời nhắn..."></textarea>
+            </div>
+            <div class="form-group col-md-12 d-grid">
+              <button type="submit" class="btn btn-brand btn-kirim">Gửi</button>
+              <button class="btn btn-brand btn-loading d-none" type="button" disabled>
+                <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                Loading...
+              </button>
+            </div>
+          </form>
+          <!-- Thông tin liên hệ khác -->
+          <div class="mt-5">
+            <h5 class="mb-3 text-center">Thông tin liên hệ khác</h5>
+            <div class="row g-3 justify-content-center">
+              <div class="col-12 col-md-6">
+                <div class="bg-base rounded-4 shadow-effect p-3 h-100">
+                  <ul class="list-unstyled mb-0">
+                    <li class="mb-3 d-flex align-items-center">
+                      <span class="iconbox me-3"><i class="fa-solid fa-envelope"></i></span>
+                      <div>
+                        <span class="fw-bold">Email:</span>
+                        <a href="mailto:vuhuyhoang12abm@gmail.com"
+                          class="text-decoration-none">vuhuyhoang12abm@gmail.com</a>
+                      </div>
+                    </li>
+                    <li class="mb-3 d-flex align-items-center">
+                      <span class="iconbox me-3"><i class="fa-solid fa-phone"></i></span>
+                      <div>
+                        <span class="fw-bold">Điện thoại:</span>
+                        <a href="tel:0839463403" class="text-decoration-none">0839 463 403</a>
+                      </div>
+                    </li>
+                    <li class="mb-3 d-flex align-items-center">
+                      <span class="iconbox me-3"><i class="fa-solid fa-location-dot"></i></span>
+                      <div>
+                        <span class="fw-bold">Địa chỉ:</span>
+                        Hà Nội, Việt Nam
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <div class="bg-base rounded-4 shadow-effect p-3 h-100">
+                  <ul class="list-unstyled mb-0">
+
+                    <li class="mb-3 d-flex align-items-center">
+                      <span class="iconbox me-3"><i class="fa-brands fa-github"></i></span>
+                      <div>
+                        <span class="fw-bold">GitHub:</span>
+                        <a href="https://github.com/to-ten-hoang" target="_blank"
+                          class="text-decoration-none">to-ten-hoang</a>
+                      </div>
+                    </li>
+                    <li class="mb-3 d-flex align-items-center">
+                      <span class="iconbox me-3"><i class="fa-brands fa-instagram"></i></span>
+                      <div>
+                        <span class="fw-bold">Instagram:</span>
+                        <a href="https://www.instagram.com/hoang.august/" target="_blank"
+                          class="text-decoration-none">@hoang.august</a>
+                      </div>
+                    </li>
+                    <li class="mb-3 d-flex align-items-center">
+                      <span class="iconbox me-3"><i class="fa-solid fa-comment-dots"></i></span>
+                      <div>
+                        <span class="fw-bold">Zalo:</span>
+                        <a href="https://zalo.me/0961234567" target="_blank" class="text-decoration-none">0839 463
+                          403</a>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End Thông tin liên hệ khác -->
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- CONTACT-->
+
+  <!-- FOOTER -->
+  <footer class="py-5 px-lg-5 bg-base">
+    <div class="container">
+      <div class="row gy-4 justify-content-between align-items-center">
+        <div class="col-lg-4 col-md-6 col-12 mb-3 mb-lg-0">
+          <p class="fw-bold fs-3 mb-1">Vũ Huy Hoàng</p>
+          <p class="mb-0">Hỗ trợ các dịch vụ phần mềm</p>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12 mb-3 mb-lg-0">
+          <ul class="list-unstyled mb-0">
+            <li><i class="fa-solid fa-envelope me-2"></i>Email: <a
+                href="mailto:vuhuyhoang0@gmail.com">vuhuyhoang12abm@gmail.com</a></li>
+            <li><i class="fa-solid fa-phone me-2"></i>Điện thoại: <a href="tel:0961234567">0839 463 403</a></li>
+            <li><i class="fa-solid fa-location-dot me-2"></i>Địa chỉ: Hà Nội, Việt Nam</li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-12 text-lg-end text-center">
+          <div class="social-icons mb-2">
+            <a href="https://www.instagram.com/hoang.august/" class="me-2"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://github.com/to-ten-hoang" class="me-2"><i class="fa-brands fa-github"></i></a>
+
+            <a href="https://zalo.me/0961234567"><i class="fa-solid fa-comment-dots"></i></a>
+          </div>
+          <small class="text-muted">&copy; 2024 Vũ Huy Hoàng. All rights reserved.</small>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- FOOTER -->
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
 </html>
